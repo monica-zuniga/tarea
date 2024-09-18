@@ -48,6 +48,7 @@ datos_temperaturas = {
 "Guayaquil": [
         [89, 90, 68, 89, 88, 88, 90],  # Semana 1
         [90, 89, 90, 90, 90, 90, 90],  # Semana 2
+
         [89, 89, 90, 92, 89, 89, 89],  # Semana 3
         [89, 90, 91, 89, 90, 90, 90]  # Semana 4
     ]
@@ -55,6 +56,7 @@ datos_temperaturas = {
 
 resultados = calcular_temperatura_promedio_ciudades(datos_temperaturas)
 print(resultados)
+
 
 
 
